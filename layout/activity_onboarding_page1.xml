@@ -1,0 +1,90 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="#FFFFFFFF"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<ScrollView 
+		android:fillViewport="true"
+		android:id="@+id/rgssycz0bzru"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#FFFFFFFF"
+		android:paddingBottom="19dp"
+		>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:id="@+id/r49zxtngoas"
+				android:layout_width="100dp"
+				android:layout_height="45dp"
+				android:layout_marginHorizontal="22dp"
+				android:layout_margin="15dp"
+				android:layout_marginBottom="15dp"
+				android:background="@drawable/sff0085ffsw1cr8"
+				android:elevation="16dp"
+				android:gravity="center_horizontal"
+				android:orientation="vertical"
+				android:paddingVertical="15dp">
+
+				<TextView
+					android:id="@+id/rvkt3w7jkoni"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/lewati_1"
+					android:textColor="#0085FF"
+					android:textSize="14sp" />
+			</LinearLayout>
+
+			<ImageView
+				android:id="@+id/rx4xcf1svsy"
+				android:layout_width="292dp"
+				android:layout_height="308dp"
+				android:layout_marginBottom="24dp"
+				android:layout_marginHorizontal="22dp"
+				android:src="@drawable/onboarding_page1"
+				android:scaleType="fitXY"/>
+
+			<TextView
+				android:id="@+id/r6x3ff4zry9a"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="43dp"
+				android:layout_marginBottom="44dp"
+				android:layout_weight="1"
+				android:text="@string/selamat_datang_di_krislam_cafe"
+				android:textColor="#000000"
+				android:textSize="28sp" />
+
+			<TextView
+				android:id="@+id/rp14c8odhr6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="22dp"
+				android:layout_marginBottom="42dp"
+				android:layout_weight="1"
+				android:text="@string/temukan_beragam_hidangan_lezat_dan_kenyamanan_dalam_genggaman_anda_dengan_krislammenu_nikmati_juga_berbagai_diskon_eksklusif_yang_membuat_pengalaman_kuliner_anda_semakin_memuaskan"
+				android:textColor="#000000"
+				android:textSize="12sp" />
+
+
+
+			<Button
+				android:id="@+id/button_page1_next"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:background="@drawable/cr8bff0085ff"
+				android:paddingVertical="14dp"
+				android:layout_marginHorizontal="20dp"
+				android:elevation="16dp"
+				android:orientation="vertical"
+				android:text="@string/btn_onboarding_berikutnya" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
