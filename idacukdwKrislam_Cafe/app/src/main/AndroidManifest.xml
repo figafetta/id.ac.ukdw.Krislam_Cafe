@@ -10,33 +10,33 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.IdacukdwKrislam_Cafe"
+        android:theme="@style/Theme.idacukdwKrislam_Cafe"
         tools:targetApi="31">
         <activity
             android:name=".MainFragmen"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Project_KRISLAM.NoActionBar" />
+            android:theme="@style/Theme.idacukdwKrislam_Cafe.NoActionBar" />
         <activity
             android:name=".Daftar"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Project_KRISLAM.NoActionBar" />
+            android:theme="@style/Theme.idacukdwKrislam_Cafe.NoActionBar" />
         <activity
             android:name=".Login"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Project_KRISLAM.NoActionBar" />
+            android:theme="@style/Theme.idacukdwKrislam_Cafe.NoActionBar" />
         <activity
             android:name=".OnboardingPage3"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Project_KRISLAM.NoActionBar" />
+            android:theme="@style/Theme.idacukdwKrislam_Cafe.NoActionBar" />
         <activity
             android:name=".OnboardingPage2"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.Project_KRISLAM.NoActionBar" />
+            android:theme="@style/Theme.idacukdwKrislam_Cafe.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

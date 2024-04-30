@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:background="#FFFFFFFF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:fillViewport="true"
+            android:id="@+id/r8vj13kjgjgs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFFFF"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/r31v0i4isl3x"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="724dp"
+                    android:background="#FFFFFFFF"
+                    android:orientation="vertical"
+                    android:paddingVertical="18dp"
+                    android:paddingRight="15dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/homeIcon"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="50dp"
+                            android:orientation="vertical"
+                            android:src="@drawable/homeicon"
+                            app:layout_constraintEnd_toStartOf="@+id/menuIcon"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+
+                        <ImageView
+                            android:id="@+id/menuIcon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="56dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/menu"
+                            app:layout_constraintEnd_toStartOf="@+id/keranjangIcon"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/keranjangIcon"
+                            android:layout_width="19dp"
+                            android:layout_height="18dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="64dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/keranjang"
+                            app:layout_constraintEnd_toStartOf="@+id/pemesananIcon"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/pemesananIcon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="60dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pemesanan"
+                            app:layout_constraintEnd_toStartOf="@+id/profilaa"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/rg0xb4w85sce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/beranda"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/homeIcon"
+                            app:layout_constraintStart_toStartOf="@+id/homeIcon"
+                            app:layout_constraintTop_toBottomOf="@+id/homeIcon" />
+
+                        <ImageView
+                            android:id="@+id/profilaa"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="16dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/profileblue"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/rrtmpdl9mi2k"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/menu"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/menuIcon"
+                            app:layout_constraintStart_toStartOf="@+id/menuIcon"
+                            app:layout_constraintTop_toBottomOf="@+id/menuIcon" />
+
+                        <TextView
+                            android:id="@+id/rou8s54iqnre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/keranjang"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/keranjangIcon"
+                            app:layout_constraintStart_toStartOf="@+id/keranjangIcon"
+                            app:layout_constraintTop_toBottomOf="@+id/keranjangIcon" />
+
+                        <TextView
+                            android:id="@+id/rolb5k6gcz6s"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pemesanan"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/pemesananIcon"
+                            app:layout_constraintStart_toStartOf="@+id/pemesananIcon"
+                            app:layout_constraintTop_toBottomOf="@+id/pemesananIcon" />
+
+                        <TextView
+                            android:id="@+id/r9svabtixnrr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/profile"
+                            android:textColor="#006FD4"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/profilaa"
+                            app:layout_constraintStart_toStartOf="@+id/profilaa"
+                            app:layout_constraintTop_toBottomOf="@+id/profilaa" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,9 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.IdacukdwKrislam_Cafe" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.idacukdwKrislam_Cafe" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.IdacukdwKrislam_Cafe" parent="Base.Theme.IdacukdwKrislam_Cafe" />
+    <style name="Theme.idacukdwKrislam_Cafe" parent="Base.Theme.idacukdwKrislam_Cafe" />
+
+    <style name="Theme.idacukdwKrislam_Cafe.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.idacukdwKrislam_Cafe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.idacukdwKrislam_Cafe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
