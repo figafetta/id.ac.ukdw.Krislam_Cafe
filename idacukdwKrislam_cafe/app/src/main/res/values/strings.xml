@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">tugasAKhir</string>
+    <string name="selamatDatang">Selamat datang di Krislam Cafe!</string>
+    <string name="deskOnboarding2">Temukan beragam hidangan lezat dan kenyamanan dalam genggaman Anda dengan KrislamMenu! Nikmati juga berbagai diskon eksklusif yang membuat pengalaman kuliner Anda semakin memuaskan.</string>
+    <string name="lewati">Lewati</string>
+    <string name="berikutnya">Berikutnya</string>
+    <string name="judulOnboarding3">Jelajahi Menu Krislam dengan Mudah</string>
+    <string name="deskOnboarding3">Nikmati kemudahan menjelajahi menu Krislam dan pilihlah hidangan favorit Anda, termasuk menu best seller/rekomendasi dari cafe kami, dengan KrislamMenu. Mulai petualangan kuliner Anda sekarang!</string>
+    <string name="judulOnboarding4">Hemat Lebih Banyak dengan KrislamMenu!</string>
+    <string name="deskOnboarding4">Nikmati Diskon Lebih Banyak di KrislamMenu! Temukan penawaran istimewa dan diskon eksklusif saat Anda jelajahi KrislamMenu. Mulai hemat dan puaskan selera Anda sekarang!</string>
+    <string name="button_mulai">Mulai Sekarang!</string>
+    <string name="judulLogin">Masuk</string>
+    <string name="deskLogin">Selamat Datang di KrislamMenu, Untuk masuk silahkan isi data kamu terlebih dahulu ya!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="lupaKataSandi">Lupa Kata Sandi?</string>
+    <string name="belumPunyaAkun">Belum punya akun?</string>
+    <string name="daftar">Daftar</string>
+</resources>

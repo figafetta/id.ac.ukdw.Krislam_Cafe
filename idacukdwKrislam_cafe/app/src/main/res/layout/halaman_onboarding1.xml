@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_lewati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_lewati_onboarding2"
+        android:backgroundTint="@color/white"
+        android:text="@string/lewati"
+        android:textColor="@color/cyan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="411dp"
+        android:layout_height="375dp"
+        android:src="@drawable/ilutrasi_onboarding2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <TextView
+        android:id="@+id/selamatDatang"
+        android:layout_width="276dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="@string/selamatDatang"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/logoImageView"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/logoImageView"
+        app:layout_constraintTop_toTopOf="@+id/logoImageView"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <TextView
+        android:id="@+id/deskOnboarding1"
+        android:layout_width="277dp"
+        android:layout_height="109dp"
+        android:gravity="center"
+        android:text="@string/deskOnboarding2"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+        app:layout_constraintTop_toBottomOf="@+id/selamatDatang"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <ImageView
+        android:id="@+id/step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/step"
+        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+        app:layout_constraintTop_toBottomOf="@+id/selamatDatang" />
+
+    <Button
+        android:id="@+id/buttohalaman2_berikutnya"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_lewati_onboarding2"
+        android:backgroundTint="@color/cyan"
+        android:text="@string/berikutnya"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

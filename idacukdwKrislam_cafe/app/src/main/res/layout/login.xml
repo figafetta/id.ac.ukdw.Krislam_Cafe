@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="374dp"
+        android:layout_height="343dp"
+        android:src="@drawable/ilustrasi_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/selamatDatang"
+        android:layout_width="376dp"
+        android:layout_height="41dp"
+        android:text="@string/judulLogin"
+        android:textColor="@color/cyan"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/logoImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/logoImageView"
+        app:layout_constraintTop_toBottomOf="@+id/logoImageView"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/deskOnboarding1"
+        android:layout_width="362dp"
+        android:layout_height="45dp"
+        android:text="@string/deskLogin"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+        app:layout_constraintTop_toBottomOf="@+id/selamatDatang"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/background_textfield_email"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="12dp"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+        app:layout_constraintTop_toBottomOf="@+id/selamatDatang"
+        app:layout_constraintVertical_bias="0.16000003" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/background_textfield_email"
+        android:drawableStart="@drawable/ic_gembok"
+        android:drawableEnd="@drawable/ic_mataprivasi"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:drawablePadding="12dp"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/emailEditText"
+        app:layout_constraintStart_toStartOf="@+id/emailEditText"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/lupakatasandi"
+        android:layout_width="368dp"
+        android:layout_height="23dp"
+        android:gravity="end"
+        android:text="@string/lupaKataSandi"
+        android:textColor="@color/cyan"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="372dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/cyan"
+        android:text="@string/judulLogin"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+        app:layout_constraintTop_toBottomOf="@+id/lupakatasandi"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <TextView
+        android:id="@+id/tidakmemilikiakun"
+        android:layout_width="368dp"
+        android:layout_height="23dp"
+        android:gravity="center"
+        android:text="@string/belumPunyaAkun"
+        android:paddingRight="20dp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/daftar"
+        android:layout_width="177dp"
+        android:layout_height="21dp"
+        android:gravity="center"
+        android:text="@string/daftar"
+        android:textColor="@color/cyan"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tidakmemilikiakun"
+        app:layout_constraintEnd_toEndOf="@+id/tidakmemilikiakun"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="@+id/tidakmemilikiakun"
+        app:layout_constraintTop_toTopOf="@+id/tidakmemilikiakun"
+        app:layout_constraintVertical_bias="0.53" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
