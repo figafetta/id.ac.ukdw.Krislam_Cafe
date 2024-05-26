@@ -22,6 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".halaman_onboarding1" />
+        <activity android:name=".halaman_onboarding2" />
+        <activity android:name=".halaman_onboarding3" />
+        <activity android:name=".login" />
     </application>
 
 </manifest>

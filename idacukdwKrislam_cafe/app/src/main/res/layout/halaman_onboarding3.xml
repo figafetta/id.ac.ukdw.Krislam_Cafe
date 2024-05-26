@@ -68,10 +68,10 @@
         android:src="@drawable/step_onboarding4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/selamatDatang"
         app:layout_constraintTop_toBottomOf="@+id/selamatDatang"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="0.786" />
 
     <Button
         android:id="@+id/buttohalaman3_berikutnya"
