@@ -45,42 +45,42 @@
         app:layout_constraintTop_toBottomOf="@+id/selamatDatang"
         app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
-        android:id="@+id/emailEditText"
-        android:layout_width="366dp"
-        android:layout_height="48dp"
-        android:layout_margin="16dp"
-        android:layout_marginTop="120dp"
-        android:background="@drawable/background_textfield_email"
-        android:drawableStart="@drawable/ic_email2"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
-        android:drawablePadding="12dp"
-        android:padding="12dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="@+id/selamatDatang"
-        app:layout_constraintTop_toBottomOf="@+id/selamatDatang"
-        app:layout_constraintVertical_bias="0.16000003" />
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="366dp"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/background_textfield_email"
+            android:drawableStart="@drawable/ic_email2"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/selamatDatang"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="@+id/selamatDatang"
+            app:layout_constraintTop_toBottomOf="@+id/selamatDatang"
+            app:layout_constraintVertical_bias="0.16000003" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="366dp"
-        android:layout_height="48dp"
-        android:layout_margin="16dp"
-        android:background="@drawable/background_textfield_email"
-        android:drawableStart="@drawable/ic_gembok"
-        android:drawableEnd="@drawable/ic_mataprivasi"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:drawablePadding="12dp"
-        android:padding="12dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/emailEditText"
-        app:layout_constraintStart_toStartOf="@+id/emailEditText"
-        app:layout_constraintTop_toBottomOf="@+id/emailEditText"
-        app:layout_constraintVertical_bias="0.0" />
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="366dp"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/background_textfield_email"
+            android:drawableStart="@drawable/ic_gembok"
+            android:drawableEnd="@drawable/ic_mataprivasi"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/emailEditText"
+            app:layout_constraintStart_toStartOf="@+id/emailEditText"
+            app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+            app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/lupakatasandi"
@@ -141,5 +141,6 @@
         app:layout_constraintStart_toStartOf="@+id/tidakmemilikiakun"
         app:layout_constraintTop_toTopOf="@+id/tidakmemilikiakun"
         app:layout_constraintVertical_bias="0.53" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

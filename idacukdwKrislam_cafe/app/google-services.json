@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "586334795591",
+    "project_id": "krislam-cafe-b8d24",
+    "storage_bucket": "krislam-cafe-b8d24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586334795591:android:658893427df32bb9f2be62",
+        "android_client_info": {
+          "package_name": "com.example.idacukdwkrislam_cafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586334795591-1g1u23hk94066bjqtqorq74rlt4ddcpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.idacukdwkrislam_cafe",
+            "certificate_hash": "eebdd426cfa32001da5299ff5d43c06ec2c29378"
+          }
+        },
+        {
+          "client_id": "586334795591-t2qssd3hoed78a10l39gpsd83kc41gdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqmVY-tJXj8Ae9H3Ck33ZPDNuwdaZ_Cvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586334795591-t2qssd3hoed78a10l39gpsd83kc41gdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
