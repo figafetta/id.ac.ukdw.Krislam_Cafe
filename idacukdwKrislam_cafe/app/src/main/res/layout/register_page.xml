@@ -63,7 +63,7 @@
             android:layout_height="48dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/textbox_1"
-            android:drawableStart="@drawable/ic_email"
+            android:drawableStart="@drawable/ic_email2"
             android:drawablePadding="10dp"
             android:ems="10"
             android:hint="Email"

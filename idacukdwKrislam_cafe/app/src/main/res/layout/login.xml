@@ -52,7 +52,7 @@
         android:layout_margin="16dp"
         android:layout_marginTop="120dp"
         android:background="@drawable/background_textfield_email"
-        android:drawableStart="@drawable/ic_email"
+        android:drawableStart="@drawable/ic_email2"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:drawablePadding="12dp"
