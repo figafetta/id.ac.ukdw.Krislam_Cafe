@@ -2,18 +2,17 @@ package com.example.idacukdwkrislam_cafe
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
+import android.widget.EditText
 
 class Login : AppCompatActivity() {
-    private lateinit var editTextEmail: TextInputEditText
-    private lateinit var editTextPassword: TextInputEditText
+    private lateinit var editTextEmail: EditText
+    private lateinit var editTextPassword: EditText
     private lateinit var buttonLogin: Button
     private lateinit var auth: FirebaseAuth
     private lateinit var textView: TextView
@@ -31,6 +30,7 @@ class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
+
         auth = FirebaseAuth.getInstance()
         editTextEmail = findViewById(R.id.emailEditText)
         editTextPassword = findViewById(R.id.editTextTextPassword)
@@ -76,5 +76,6 @@ class Login : AppCompatActivity() {
                     }
                 }
         }
+
     }
 }
