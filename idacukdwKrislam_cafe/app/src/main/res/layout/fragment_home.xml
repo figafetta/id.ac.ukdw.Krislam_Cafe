@@ -6,9 +6,349 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="380dp"
+            android:layout_height="157dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fiturscrol">
+
+            <TextView
+                android:id="@+id/kategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kategori"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="81dp"
+                    android:layout_height="105dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/kategori_paket"
+                        android:layout_width="match_parent"
+                        android:layout_height="71dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/kategori_paketkomplit"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                    <TextView
+                        android:id="@+id/judulkategori"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Paket Komplit"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="81dp"
+                    android:layout_height="105dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/kategori_paket2"
+                        android:layout_width="match_parent"
+                        android:layout_height="71dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/kategori_cemilan"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                    <TextView
+                        android:id="@+id/judulkategori2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cemilan"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="81dp"
+                    android:layout_height="105dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/kategori_paket3"
+                        android:layout_width="match_parent"
+                        android:layout_height="71dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/kategori_makanan"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                    <TextView
+                        android:id="@+id/judulkategori3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Makanan"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="81dp"
+                    android:layout_height="105dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/kategori_paket4"
+                        android:layout_width="match_parent"
+                        android:layout_height="71dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/kategori_minuman"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                    <TextView
+                        android:id="@+id/judulkategori4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Minuman"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/fotodiskon"
+            android:layout_width="383dp"
+            android:layout_height="171dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/foto_diskon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/fiturscrol"
+            android:layout_width="95dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/step"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+            <TextView
+                android:id="@+id/diskon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diskon"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="194dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/item_background">
+
+                    <ImageView
+                        android:id="@+id/makanandiskon"
+                        android:layout_width="match_parent"
+                        android:layout_height="118dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/nasigorengbabi"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                    <TextView
+                        android:id="@+id/judulmakanan"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nasi Goreng Babi"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargadiskon"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 10.000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargaasli"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 20.000"
+                        android:textSize="15sp"
+                        android:textStrikeThrough="true"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="194dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/item_background">
+
+                    <ImageView
+                        android:id="@+id/makanandiskon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="118dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/mocacino"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                    <TextView
+                        android:id="@+id/judulmakanan2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mocacino"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargadiskon2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 15.000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargaasli2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 20.000"
+                        android:textSize="15sp"
+                        android:textStrikeThrough="true"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="194dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/item_background">
+
+                    <ImageView
+                        android:id="@+id/makanandiskon3"
+                        android:layout_width="match_parent"
+                        android:layout_height="118dp"
+                        android:layout_marginTop="0dp"
+                        android:src="@drawable/ayamgoreng"
+                        android:scaleType="fitXY"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                    <TextView
+                        android:id="@+id/judulmakanan3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ayam Goreng"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargadiskon3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 10.000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargaasli3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 20.000"
+                        android:textSize="15sp"
+                        android:textStrikeThrough="true"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
