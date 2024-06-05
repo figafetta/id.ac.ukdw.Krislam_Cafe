@@ -18,4 +18,25 @@
     <string name="daftar">Daftar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daftar_">Daftar</string>
+    <string name="selamat_datang_di_aplikasi_krislammenu_untuk_masuk_silahkan_daftar_dan_mengisi_data_kamu_terlebih_dahulu_ya">Selamat Datang di Aplikasi KrislamMenu, Untuk Masuk silahkan Daftar dan mengisi data kamu terlebih dahulu ya!</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_">Password</string>
+    <string name="email_">Email</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar_text">Daftar</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="halo_siapa_namamu">Halo, Siapa namamu?</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="berapa_nomor_ponselmu">Berapa nomor ponselmu?</string>
+    <string name="nomor_ponsel">Nomor Ponsel</string>
+    <string name="apa_jenis_kelaminmu">Apa jenis kelaminmu?</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="ubah_kata_sandi">Ubah Kata Sandi</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="privasi">Privasi</string>
 </resources>

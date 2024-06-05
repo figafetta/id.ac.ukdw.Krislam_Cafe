@@ -1,14 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Profile">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="97dp"
+            android:layout_height="87dp"
+            android:src="@drawable/juen_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.097" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ilham Paiki"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.103" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="ilhampaiki@gmail.com"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="172dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.275">
+
+            <ImageView
+                android:id="@+id/image_akun"
+                android:layout_width="387dp"
+                android:layout_height="49dp"
+                android:src="@drawable/akun_profile" />
+
+            <Button
+                android:id="@+id/button_edit_profile"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:backgroundTint="@color/white"
+                android:text="@string/edit_profile"
+                android:textColor="#1E1E1E"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+
+            <Button
+                android:id="@+id/button_ubah_kata_sandi"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:backgroundTint="#FFFFFF"
+                android:text="@string/ubah_kata_sandi"
+                android:textColor="#1E1E1E"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="443dp"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="280dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.722">
+
+            <ImageView
+                android:id="@+id/image_aplikasi_krislam"
+                android:layout_width="387dp"
+                android:layout_height="49dp"
+                android:src="@drawable/aplikasi_krislam" />
+
+            <Button
+                android:id="@+id/button_tentang_kami"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:backgroundTint="@color/white"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/tentang_kami"
+                android:textColor="#1E1E1E" />
+
+            <Button
+                android:id="@+id/button_hubungi_kami"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Hubungi Kami"
+                android:textColor="#1E1E1E"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="443dp" />
+
+            <Button
+                android:id="@+id/button_Syarat_ketentuan"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:backgroundTint="@color/white"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Syarat Ketentuan"
+                android:textColor="#1E1E1E" />
+
+            <Button
+                android:id="@+id/button_keluar"
+                android:layout_width="325dp"
+                android:layout_height="49dp"
+                android:backgroundTint="@color/white"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="Keluar"
+                android:textColor="#1E1E1E" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
