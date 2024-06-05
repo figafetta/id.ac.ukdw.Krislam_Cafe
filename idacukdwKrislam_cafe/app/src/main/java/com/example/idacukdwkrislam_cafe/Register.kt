@@ -11,11 +11,12 @@ import android.widget.Toast
 import android.widget.Button
 import android.widget.TextView
 import android.widget.ProgressBar
+import android.widget.EditText
 
 class Register : AppCompatActivity() {
-    private lateinit var editTextEmail: TextInputEditText
-    private lateinit var editTextPassword: TextInputEditText
-    private lateinit var editTextPassword2: TextInputEditText
+    private lateinit var editTextEmail: EditText
+    private lateinit var editTextPassword: EditText
+    private lateinit var editTextPassword2: EditText
     private lateinit var buttonReg: Button
     private lateinit var auth: FirebaseAuth
     private lateinit var progressBar: ProgressBar
@@ -36,7 +37,8 @@ class Register : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.register_page_1)
+        setContentView(R.layout.register_page)
+
         auth = FirebaseAuth.getInstance()
         editTextEmail = findViewById(R.id.editTextTextEmailAddress)
         editTextPassword = findViewById(R.id.editTextTextPaswword1)
