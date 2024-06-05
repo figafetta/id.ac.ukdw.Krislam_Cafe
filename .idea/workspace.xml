@@ -92,20 +92,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80d63686-9c42-41e0-8b38-aa54c7ef8892" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/drawable/bobaredvelvetdrink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/drawable/frenchfries.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Login.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Register.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Register.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/halaman_onboarding3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/halaman_onboarding3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_keranjang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_keranjang.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_pemesanan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_pemesanan.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
