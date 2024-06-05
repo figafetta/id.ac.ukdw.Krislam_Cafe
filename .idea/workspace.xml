@@ -15,7 +15,32 @@
           <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_home.xml">
+        <config>
+          <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_keranjang.xml">
+        <config>
+          <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_menu.xml">
+        <config>
+          <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_pemesanan.xml">
+        <config>
+          <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_profile.xml">
+        <config>
+          <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/halaman_onboarding1.xml">
         <config>
           <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
         </config>
@@ -55,6 +80,11 @@
           <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/navigation/navigasi_main.xml">
+        <config>
+          <theme>@style/Theme.IdacukdwKrislam_cafe</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -62,23 +92,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80d63686-9c42-41e0-8b38-aa54c7ef8892" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Login.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Register.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/drawable/bobaredvelvetdrink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/drawable/frenchfries.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Register.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/Register.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/halaman_onboarding3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/java/com/example/idacukdwkrislam_cafe/halaman_onboarding3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/register_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/register_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/menu/bottom_nav_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/menu/bottom_nav_bar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_keranjang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_keranjang.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_pemesanan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idacukdwKrislam_cafe/app/src/main/res/layout/fragment_pemesanan.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +172,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -156,6 +186,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.id.ac.ukdw.Krislam_cafe.app.executor": "Run",
     "Gradle.idacukdwKrislam_cafe [signingReport].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -166,11 +197,12 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ronand/Downloads/projectV/id.ac.ukdw.Krislam_Cafe/idacukdwKrislam_cafe/app"
+    "last_opened_file_path": "C:/Users/ronand/Downloads/projectV/id.ac.ukdw.Krislam_Cafe/idacukdwKrislam_cafe/app/src/main/res/drawable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ronand\Downloads\projectV\id.ac.ukdw.Krislam_Cafe\idacukdwKrislam_cafe\app\src\main\res\drawable" />
       <recent name="C:\Users\ronand\Downloads\projectV\id.ac.ukdw.Krislam_Cafe\idacukdwKrislam_cafe\app" />
     </key>
   </component>
@@ -179,7 +211,7 @@
       <command value="gradle signingReport" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.idacukdwKrislam_cafe [signingReport]">
+  <component name="RunManager" selected="Android App.id.ac.ukdw.Krislam_cafe.app">
     <configuration name="id.ac.ukdw.Krislam_cafe.app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="id.ac.ukdw.Krislam_cafe.app.main" />
       <option name="DEPLOY" value="true" />

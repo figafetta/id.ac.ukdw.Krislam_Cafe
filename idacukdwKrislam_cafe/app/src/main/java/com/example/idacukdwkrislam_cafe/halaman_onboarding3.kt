@@ -12,7 +12,7 @@ class halaman_onboarding3 : AppCompatActivity() {
 
         val buttonBerikutnya = findViewById<Button>(R.id.buttohalaman3_berikutnya)
         buttonBerikutnya.setOnClickListener {
-            val intent = Intent(this, halaman_onboarding3::class.java)
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
     }

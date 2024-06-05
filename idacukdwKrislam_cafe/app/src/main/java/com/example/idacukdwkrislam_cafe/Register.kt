@@ -12,7 +12,6 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.ProgressBar
 
-
 class Register : AppCompatActivity() {
     private lateinit var editTextEmail: TextInputEditText
     private lateinit var editTextPassword: TextInputEditText
@@ -22,18 +21,20 @@ class Register : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private lateinit var textView: TextView
 
-    public override fun onStart() {
+    override fun onStart() {
         super.onStart()
+        auth = FirebaseAuth.getInstance()
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
         if (currentUser != null) {
-            val intent = Intent(this@Register,Home::class.java)
+            val intent = Intent(this@Register, Home::class.java)
             startActivity(intent)
             finish()
         }
     }
+
     @SuppressLint("MissingInflatedId")
-    override fun onCreate(savedInstanceState: Bundle?){
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.register_page_1)
         auth = FirebaseAuth.getInstance()
@@ -44,47 +45,52 @@ class Register : AppCompatActivity() {
         progressBar = findViewById(R.id.progressBar)
         textView = findViewById(R.id.textView2)
 
-
-        textView.setOnClickListener{
-            val intent = Intent(this@Register,Login::class.java)
-             startActivity(intent)
-             finish()
+        textView.setOnClickListener {
+            val intent = Intent(this@Register, Login::class.java)
+            startActivity(intent)
+            finish()
         }
 
         buttonReg.setOnClickListener {
-            progressBar.setVisibility(View.VISIBLE)
+            progressBar.visibility = View.VISIBLE
             val email = editTextEmail.text.toString()
             val password = editTextPassword.text.toString()
             val password2 = editTextPassword2.text.toString()
 
             if (email.isEmpty()) {
                 Toast.makeText(this@Register, "Enter Email", Toast.LENGTH_SHORT).show()
+                progressBar.visibility = View.GONE
                 return@setOnClickListener
             }
             if (password.isEmpty()) {
                 Toast.makeText(this@Register, "Enter Password", Toast.LENGTH_SHORT).show()
+                progressBar.visibility = View.GONE
                 return@setOnClickListener
             }
             if (password != password2) {
                 Toast.makeText(this@Register, "Passwords do not match", Toast.LENGTH_SHORT).show()
+                progressBar.visibility = View.GONE
                 return@setOnClickListener
             }
 
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
+                    progressBar.visibility = View.GONE
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
-                        progressBar.setVisibility(View.GONE)
                         Toast.makeText(
                             baseContext,
-                            "Authentication successfull.",
+                            "Registration successful.",
                             Toast.LENGTH_SHORT,
                         ).show()
+                        val intent = Intent(this@Register, Home::class.java)
+                        startActivity(intent)
+                        finish()
                     } else {
                         // If sign in fails, display a message to the user.
                         Toast.makeText(
                             baseContext,
-                            "Authentication failed.",
+                            "Registration failed.",
                             Toast.LENGTH_SHORT,
                         ).show()
                     }

@@ -2,9 +2,8 @@ package com.example.idacukdwkrislam_cafe
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
+import android.util.Log
 import android.widget.Button
-import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -18,31 +17,23 @@ class Login : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private lateinit var textView: TextView
 
-    public override fun onStart() {
-        super.onStart()
-        // Check if user is signed in (non-null) and update UI accordingly.
-        val currentUser = auth.currentUser
-        if (currentUser != null) {
-            val intent = Intent(this@Login,MainFragment::class.java)
-            startActivity(intent)
-            finish()
-        }
-    }
-    override fun onCreate(savedInstanceState: Bundle?){
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
-        auth = FirebaseAuth.getInstance()
+
+        auth = FirebaseAuth.getInstance() // Initializing auth here
         editTextEmail = findViewById(R.id.emailEditText)
         editTextPassword = findViewById(R.id.editTextTextPassword)
         buttonLogin = findViewById(R.id.login)
         textView = findViewById(R.id.daftar)
 
-        textView.setOnClickListener{
-            val intent = Intent(this@Login,Register::class.java)
+        textView.setOnClickListener {
+            val intent = Intent(this@Login, Register::class.java)
             startActivity(intent)
             finish()
         }
-        buttonLogin.setOnClickListener{
+
+        buttonLogin.setOnClickListener {
             val email = editTextEmail.text.toString()
             val password = editTextPassword.text.toString()
 
@@ -60,10 +51,10 @@ class Login : AppCompatActivity() {
                         // Sign in success, update UI with the signed-in user's information
                         Toast.makeText(
                             baseContext,
-                            "Login Succesful.",
+                            "Login Successful.",
                             Toast.LENGTH_SHORT,
                         ).show()
-                        val intent = Intent(this@Login,MainFragment::class.java)
+                        val intent = Intent(this@Login, MainFragment::class.java)
                         startActivity(intent)
                         finish()
                     } else {
@@ -75,6 +66,20 @@ class Login : AppCompatActivity() {
                         ).show()
                     }
                 }
+        }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        // Check if user is signed in (non-null) and update UI accordingly.
+        val currentUser = auth.currentUser
+        if (currentUser != null) {
+            Log.d("LoginActivity", "User already logged in, redirecting to MainFragment")
+            val intent = Intent(this@Login, MainFragment::class.java)
+            startActivity(intent)
+            finish()
+        } else {
+            Log.d("LoginActivity", "No user logged in, staying on login page")
         }
     }
 }
