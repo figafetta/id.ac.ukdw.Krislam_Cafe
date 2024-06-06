@@ -6,208 +6,207 @@
     android:layout_height="match_parent"
     tools:context=".Keranjang">
 
-    <LinearLayout
-        android:id="@+id/LinearLayoutContent"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="108dp">
-
-            <LinearLayout
-                android:id="@+id/Content1"
-                android:layout_width="420dp"
-                android:layout_height="106dp"
-                android:orientation="horizontal"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <CheckBox
-                    android:id="@+id/checkBox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="125dp"
-                    android:layout_height="112dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/bobaredvelvetdrink" />
-
-                <LinearLayout
-                    android:layout_width="177dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView8"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Red Velvet"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:id="@+id/textView7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Dingin" />
-
-                    <TextView
-                        android:id="@+id/textView11"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Total Rp. 17.000"
-                        android:textStyle="bold"/>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="22dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <Button
-                            android:id="@+id/button3"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="min" />
-
-                        <TextView
-                            android:id="@+id/textView13"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="1"
-                            android:textAlignment="center"/>
-
-                        <Button
-                            android:id="@+id/button2"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="plus" />
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <ImageButton
-                    android:id="@+id/imageButton3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@android:drawable/ic_menu_edit" />
-            </LinearLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="112dp">
-
-            <LinearLayout
-                android:id="@+id/Content2"
-                android:layout_width="420dp"
-                android:layout_height="106dp"
-                android:orientation="horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-                <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="125dp"
-                    android:layout_height="112dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/frenchfries" />
-
-                <LinearLayout
-                    android:layout_width="176dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView9"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Kentang Goreng"
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:id="@+id/textView10"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Panas" />
-
-                    <TextView
-                        android:id="@+id/textView12"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Total Rp. 12.000"
-                        android:textStyle="bold"/>
-
-                    <LinearLayout
-                        android:layout_width="130dp"
-                        android:layout_height="22dp"
-                        android:layout_weight="1"
-                        android:orientation="horizontal">
-
-                        <Button
-                            android:id="@+id/button4"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="min" />
-
-                        <TextView
-                            android:id="@+id/textView14"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="1"
-                            android:textAlignment="center" />
-
-                        <Button
-                            android:id="@+id/button5"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:text="plus" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <ImageButton
-                    android:id="@+id/imageButton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@android:drawable/ic_menu_edit" />
-            </LinearLayout>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent">
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#0085FF"
+            android:text="@string/checkout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976" />
 
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Content1"
+            android:layout_width="403dp"
+            android:layout_height="112dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView_kkeranjang_2"
+                android:layout_width="125dp"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:src="@drawable/bobaredvelvetdrink" />
+
+            <LinearLayout
+                android:layout_width="207dp"
+                android:layout_height="108dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_redvelvet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/red_velvet"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_dingin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dingin" />
+
+                <TextView
+                    android:id="@+id/textView_17000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_rp_17_000"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="149dp"
+                    android:layout_height="46dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/image_button_keranjang_mines_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/image_button_mines" />
+
+                    <TextView
+                        android:id="@+id/textView_kedua"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/_1"
+                        android:textAlignment="center"
+                        android:textSize="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/image_button_keranjang_plus_2"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/image_button_plus" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton_edit_keranjang1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:src="@drawable/image_button_edit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Content2"
+            android:layout_width="403dp"
+            android:layout_height="124dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/Content1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/Content1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.025">
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView_keranjang1"
+                android:layout_width="125dp"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:src="@drawable/frenchfries" />
+
+            <LinearLayout
+                android:layout_width="207dp"
+                android:layout_height="108dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_kentang_goreng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kentang_goreng"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_dadakan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/digoreng_dadakan" />
+
+                <TextView
+                    android:id="@+id/textView_12000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_rp_12_000"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="149dp"
+                    android:layout_height="46dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/image_button_keranjang_mines_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/image_button_mines" />
+
+                    <TextView
+                        android:id="@+id/textView_pertama"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/_1"
+                        android:textAlignment="center"
+                        android:textSize="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/image_button_keranjang_plus_1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/image_button_plus" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton_edit_keranjang2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:src="@drawable/image_button_edit" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </FrameLayout>

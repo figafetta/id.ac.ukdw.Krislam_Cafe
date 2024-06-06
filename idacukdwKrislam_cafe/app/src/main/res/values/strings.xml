@@ -51,4 +51,11 @@
     <string name="id">ID CDAAPTNIA</string>
     <string name="totalHarga">Total Harga</string>
     <string name="detailpesanan">Detail Pesanan</string>
+    <string name="checkout">Checkout</string>
+    <string name="kentang_goreng">Kentang Goreng</string>
+    <string name="digoreng_dadakan">digoreng dadakan</string>
+    <string name="total_rp_12_000">Total Rp. 12.000</string>
+    <string name="red_velvet">Red Velvet</string>
+    <string name="dingin">Dingin</string>
+    <string name="total_rp_17_000">Total Rp. 17.000</string>
 </resources>

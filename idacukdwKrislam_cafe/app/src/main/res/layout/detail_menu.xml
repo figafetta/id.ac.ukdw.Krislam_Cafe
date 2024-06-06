@@ -112,27 +112,30 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <Button
-                        android:id="@+id/button3"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="min" />
+                    <ImageButton
+                        android:id="@+id/image_button_detailmenu"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/image_button_mines" />
 
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="1"
-                        android:textAlignment="center" />
+                        android:gravity="center"
+                        android:text="@string/_1"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
 
-                    <Button
-                        android:id="@+id/button2"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="plus" />
+                    <ImageButton
+                        android:id="@+id/image_button_detailmenu_2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/image_button_plus" />
+
+
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -185,7 +188,6 @@
             android:layout_width="387dp"
             android:layout_height="45dp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/button_lewati_onboarding2"
             android:backgroundTint="@color/cyan"
             android:text="@string/masukanKeranjang"
             android:textColor="@color/white"
