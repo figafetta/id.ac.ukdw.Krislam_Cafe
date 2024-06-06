@@ -127,7 +127,7 @@
                                 android:layout_height="203dp"
                                 android:layout_marginStart="10dp"
                                 android:layout_marginTop="10dp"
-                                android:background="@drawable/item_background"
+                                android:background="@drawable/hover_background"
                                 android:onClick="onLinearLayoutClicked"
                                 android:orientation="vertical">
 
