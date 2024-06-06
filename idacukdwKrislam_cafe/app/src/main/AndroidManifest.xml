@@ -31,6 +31,7 @@
         <activity android:name=".Register" />
         <activity android:name=".MainFragment" />
         <activity android:name=".DetailMenu" />
+        <activity android:name=".Profile" />
 
     </application>
 </manifest>
