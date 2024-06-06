@@ -46,4 +46,9 @@
     <string name="jumlah">Jumlah</string>
     <string name="catatan">Catatan</string>
     <string name="masukanKeranjang">Masukan Keranjang</string>
+    <string name="pajak">Pajak</string>
+    <string name="diskon">Diskon</string>
+    <string name="id">ID CDAAPTNIA</string>
+    <string name="totalHarga">Total Harga</string>
+    <string name="detailpesanan">Detail Pesanan</string>
 </resources>
