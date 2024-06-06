@@ -72,24 +72,24 @@
                 android:layout_width="325dp"
                 android:layout_height="49dp"
                 android:backgroundTint="@color/white"
-                android:text="@string/edit_profile"
-                android:textColor="#1E1E1E"
                 android:gravity="start|center_vertical"
                 android:paddingStart="16dp"
-                android:paddingEnd="16dp"/>
+                android:paddingEnd="16dp"
+                android:text="@string/edit_profile"
+                android:textColor="#1E1E1E" />
 
             <Button
                 android:id="@+id/button_ubah_kata_sandi"
                 android:layout_width="325dp"
                 android:layout_height="49dp"
                 android:backgroundTint="#FFFFFF"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
                 android:text="@string/ubah_kata_sandi"
                 android:textColor="#1E1E1E"
                 tools:layout_editor_absoluteX="25dp"
-                tools:layout_editor_absoluteY="443dp"
-                android:gravity="start|center_vertical"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"/>
+                tools:layout_editor_absoluteY="443dp" />
         </LinearLayout>
 
         <LinearLayout
