@@ -58,4 +58,13 @@
     <string name="red_velvet">Red Velvet</string>
     <string name="dingin">Dingin</string>
     <string name="total_rp_17_000">Total Rp. 17.000</string>
+    <string name="rp_10_000">Rp 10.000</string>
+    <string name="rp1_500">Rp1.500</string>
+    <string name="rp_0">Rp 0</string>
+    <string name="rp_11_500">Rp 11.500</string>
+    <string name="metode_pembayaran">Metode Pembayaran</string>
+    <string name="yuk_pilih_cara_bayar_yang_kamu_mau">Yuk pilih cara bayar yang kamu mau</string>
+    <string name="total_biaya">Total Biaya</string>
+    <string name="rp_20000">Rp.20000</string>
+    <string name="bayar_sekarang">Bayar Sekarang</string>
 </resources>
