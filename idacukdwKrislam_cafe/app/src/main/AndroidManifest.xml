@@ -32,6 +32,6 @@
         <activity android:name=".MainFragment" />
         <activity android:name=".DetailMenu" />
         <activity android:name=".Profile" />
-
+        <activity android:name=".DetailPemesanan" />
     </application>
 </manifest>
