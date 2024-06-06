@@ -122,13 +122,14 @@
                             android:orientation="horizontal">
 
                             <LinearLayout
+                                android:id="@+id/menu_paketKomplit1"
                                 android:layout_width="147dp"
                                 android:layout_height="203dp"
                                 android:layout_marginStart="10dp"
                                 android:layout_marginTop="10dp"
                                 android:background="@drawable/item_background"
-                                android:orientation="vertical"
-                                android:onClick="onLinearLayoutClicked">
+                                android:onClick="onLinearLayoutClicked"
+                                android:orientation="vertical">
 
                                 <ImageView
                                     android:id="@+id/paket_komplit1"
