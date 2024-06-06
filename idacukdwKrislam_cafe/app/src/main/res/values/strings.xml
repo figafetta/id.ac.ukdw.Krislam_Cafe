@@ -39,4 +39,9 @@
     <string name="ubah_kata_sandi">Ubah Kata Sandi</string>
     <string name="tentang_kami">Tentang Kami</string>
     <string name="privasi">Privasi</string>
+    <string name="paket_komplit">Paket Komplit</string>
+    <string name="makanan">Makanan</string>
+    <string name="minuman">Minuman</string>
+    <string name="cemilan">Cemilan</string>
+
 </resources>
