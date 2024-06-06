@@ -1,73 +1,603 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Menu">
 
-    <HorizontalScrollView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:id="@+id/atas"
-            android:layout_width="wrap_content"
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
+            android:scrollbars="none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <Button
-                android:id="@+id/button"
+            <LinearLayout
+                android:id="@+id/atas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/paket_komplit"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="#662B99FF"/>
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/makanan"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="#662B99FF"/>
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#662B99FF"
+                    android:text="@string/paket_komplit"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/cemilan"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="#662B99FF"/>
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#662B99FF"
+                    android:text="@string/makanan"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/minuman"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="#662B99FF"/>
-        </LinearLayout>
-    </HorizontalScrollView>
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#662B99FF"
+                    android:text="@string/cemilan"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#662B99FF"
+                    android:text="@string/minuman"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="414dp"
+            android:layout_height="674dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+            app:layout_constraintVertical_bias="0.0">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+
+                        <TextView
+                            android:id="@+id/paket_komplit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/paket_komplit"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="225dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="147dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/paket_komplit1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/ayamgoreng"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulpaketkomplit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Ayam Goreng"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargapaketkomplit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaaslipaketkomplit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <!-- Add a View here as a separator with larger width -->
+                            <View
+                                android:layout_width="43dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="151dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/paket_komplit2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/nasigorengbabi"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulpaketkomplit2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Nasi Goreng Babi"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargadiskonpaketkomplit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaaslipaketkomplit2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+
+                        <TextView
+                            android:id="@+id/makanan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/makanan"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="225dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="147dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/makanandiskon3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/ayamgoreng"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulmakanan3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Ayam Goreng"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargadiskon3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaasli3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <!-- Add a View here as a separator with larger width -->
+                            <View
+                                android:layout_width="43dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="151dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/makanandiskon"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/nasigorengbabi"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulmakanan"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Nasi Goreng Babi"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargadiskon"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaasli"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+
+                        <TextView
+                            android:id="@+id/minuman"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/minuman"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="225dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="147dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/minumanmenu"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/mocacino"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulminuman"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Ayam Goreng"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargadiskonminuman"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaasliminuman"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <!-- Add a View here as a separator with larger width -->
+                            <View
+                                android:layout_width="43dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="151dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/minumanmenu2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/nasigorengbabi"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulminuman2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Nasi Goreng Babi"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargadiskonminuman2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaasliminuman2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="20dp">
+
+                        <TextView
+                            android:id="@+id/cemilan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cemilan"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="225dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="147dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/cemilanmenu"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/ayamgoreng"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulmenu"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Ayam Goreng"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargadiskonmenu"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaaslimenu"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+
+                            <!-- Add a View here as a separator with larger width -->
+                            <View
+                                android:layout_width="43dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="151dp"
+                                android:layout_height="203dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/item_background"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/cemilanmenu2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="118dp"
+                                    android:layout_marginTop="0dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/nasigorengbabi"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/fotodiskon" />
+
+                                <TextView
+                                    android:id="@+id/judulcemilan2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Nasi Goreng Babi"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargadiskoncemilan2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 10.000"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/hargaaslicemilan2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rp 20.000"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </FrameLayout>
