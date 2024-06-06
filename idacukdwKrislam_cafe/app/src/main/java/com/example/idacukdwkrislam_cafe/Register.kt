@@ -14,9 +14,9 @@ import android.widget.ProgressBar
 import android.widget.EditText
 
 class Register : AppCompatActivity() {
-    private lateinit var editTextEmail: EditText
-    private lateinit var editTextPassword: EditText
-    private lateinit var editTextPassword2: EditText
+    private lateinit var editTextEmail: TextInputEditText
+    private lateinit var editTextPassword: TextInputEditText
+    private lateinit var editTextPassword2: TextInputEditText
     private lateinit var buttonReg: Button
     private lateinit var auth: FirebaseAuth
     private lateinit var progressBar: ProgressBar
@@ -40,12 +40,12 @@ class Register : AppCompatActivity() {
         setContentView(R.layout.register_page)
 
         auth = FirebaseAuth.getInstance()
-        editTextEmail = findViewById(R.id.editTextTextEmailAddress)
-        editTextPassword = findViewById(R.id.editTextTextPaswword1)
-        editTextPassword2 = findViewById(R.id.editTextTextPaswword2)
-        buttonReg = findViewById(R.id.button)
+        editTextEmail = findViewById(R.id.editText_email)
+        editTextPassword = findViewById(R.id.editText_Paswword)
+        editTextPassword2 = findViewById(R.id.editText_Paswword_2)
+        buttonReg = findViewById(R.id.button_daftar)
         progressBar = findViewById(R.id.progressBar)
-        textView = findViewById(R.id.textView2)
+        textView = findViewById(R.id.button_text_masuk)
 
         textView.setOnClickListener {
             val intent = Intent(this@Register, Login::class.java)

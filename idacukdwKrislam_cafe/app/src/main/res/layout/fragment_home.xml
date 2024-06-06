@@ -244,7 +244,7 @@
                         android:layout_height="wrap_content"
                         android:text="Rp 20.000"
                         android:textSize="15sp"
-                        android:textStrikeThrough="true"/>
+                        />
 
 
                 </LinearLayout>
@@ -294,7 +294,7 @@
                         android:layout_height="wrap_content"
                         android:text="Rp 20.000"
                         android:textSize="15sp"
-                        android:textStrikeThrough="true"/>
+                        />
                 </LinearLayout>
 
                 <LinearLayout
@@ -342,7 +342,7 @@
                         android:layout_height="wrap_content"
                         android:text="Rp 20.000"
                         android:textSize="15sp"
-                        android:textStrikeThrough="true"/>
+                        />
                 </LinearLayout>
 
             </LinearLayout>

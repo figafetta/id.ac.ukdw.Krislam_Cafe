@@ -57,65 +57,61 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/deskripsi_daftar">
 
-        <EditText
-            android:id="@+id/editText_email"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="350dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/textbox_1"
-            android:drawableStart="@drawable/ic_email2"
-            android:drawablePadding="10dp"
-            android:ems="10"
-            android:hint="@string/email_"
-            android:inputType="textEmailAddress"
-            android:padding="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/textView5"
-            app:layout_constraintTop_toBottomOf="@+id/textView5"
-            app:layout_constraintVertical_bias="0.028" />
+            android:background="@drawable/textbox_1">
 
-        <EditText
-            android:id="@+id/editText_Paswword"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_email2"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="@string/email_"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="350dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/textbox_1"
-            android:drawableStart="@drawable/ic_lock"
-            android:drawableEnd="@drawable/ic_visible_off"
-            android:drawablePadding="10dp"
-            android:ems="10"
-            android:hint="@string/password_"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-            app:layout_constraintVertical_bias="0.076" />
+            android:background="@drawable/textbox_1">
 
-        <EditText
-            android:id="@+id/editText_Paswword_2"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_Paswword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableEnd="@drawable/ic_visible_off"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="@string/password_"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="350dp"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/textbox_1"
-            android:drawableStart="@drawable/ic_lock"
-            android:drawableEnd="@drawable/ic_visible_off"
-            android:drawablePadding="10dp"
-            android:ems="10"
-            android:hint="@string/confirm_password"
-            android:inputType="textPassword"
-            android:padding="10dp"
+            android:background="@drawable/textbox_1">
 
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPaswword1"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPaswword1"
-            app:layout_constraintVertical_bias="0.302" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_Paswword_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableEnd="@drawable/ic_visible_off"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -164,7 +160,5 @@
         app:layout_constraintStart_toStartOf="@+id/linearLayout_daftar"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout_daftar"
         app:layout_constraintVertical_bias="0.0" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
