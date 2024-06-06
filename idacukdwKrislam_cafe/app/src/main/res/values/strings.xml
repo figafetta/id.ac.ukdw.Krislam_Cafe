@@ -43,5 +43,7 @@
     <string name="makanan">Makanan</string>
     <string name="minuman">Minuman</string>
     <string name="cemilan">Cemilan</string>
-
+    <string name="jumlah">Jumlah</string>
+    <string name="catatan">Catatan</string>
+    <string name="masukanKeranjang">Masukan Keranjang</string>
 </resources>
