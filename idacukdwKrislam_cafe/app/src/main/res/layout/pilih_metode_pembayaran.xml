@@ -265,7 +265,7 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/ButtonBayar"
                     android:layout_width="196dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"

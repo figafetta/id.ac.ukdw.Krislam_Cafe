@@ -33,5 +33,6 @@
         <activity android:name=".DetailMenu" />
         <activity android:name=".Profile" />
         <activity android:name=".DetailPemesanan" />
+        <activity android:name=".PilihMetodePembayaran" />
     </application>
 </manifest>
